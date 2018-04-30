@@ -10,10 +10,5 @@ end
 
 
 def current_player(array)
-  # player_character = turn_count(array) % 2 == 0 ? "O" : "X"
-  if turn_count(array) % 2 == 0
-    return "O"
-  else
-    return "X"
-  end
+  player_character = turn_count(array) % 2 == 0 ? "X" : "O"
 end
