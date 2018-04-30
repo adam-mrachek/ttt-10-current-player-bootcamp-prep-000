@@ -7,3 +7,8 @@ def turn_count(array)
   end
   return counter
 end
+
+
+def current_player(array)
+
+end
